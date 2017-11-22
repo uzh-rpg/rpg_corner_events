@@ -5,7 +5,8 @@ Our event-based corner detector is very efficient due to its design principle, w
 Our method asynchronously processes event by event with very low latency.
 Our implementation is capable of processing a million events per second on a single core (less than a micro-second per event) and reduces the event rate by a factor of 10 to 20.
 
-![screenshot](https://user-images.githubusercontent.com/)
+![corners_screenshot](https://user-images.githubusercontent.com/670994/33142309-4425645e-cfb6-11e7-9851-ab886707adb2.png)
+Left: image with *all* events, right: image with only corner events. Event color depicts polarity (i.e., the sign of the brightness change).
 
 This code also contains the Spatially-Adaptive Harris Method used for comparison.
 For more details, please read our [BMVC'17 publication](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler.pdf) paper.
