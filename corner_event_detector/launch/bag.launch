@@ -1,0 +1,29 @@
+<launch>
+  <!-- feature detector -->
+  <node name="corner_event_detector" pkg="corner_event_detector" type="detector" output="screen">
+    <param name="feature_type" value="harris"/>
+  </node>
+
+  <!-- corner visualization -->
+  <node name="dvs_renderer_corners" pkg="dvs_renderer" type="dvs_renderer">
+    <param name="display_method" value="red-blue"/>
+    <param name="num_event_msgs" value="5"/>
+    <remap from="events" to="/feature_events" />
+    <remap from="image" to="/dvs/image_raw" />
+    <remap from="camera_info" to="/dvs/camera_info" />
+    <remap from="dvs_rendering" to="dvs_rendering_corners"/>
+  </node>
+
+  <!-- event visualization -->
+  <node name="dvs_renderer_events" pkg="dvs_renderer" type="dvs_renderer">
+    <param name="display_method" value="red-blue"/>
+    <param name="num_event_msgs" value="1"/>
+    <remap from="events" to="/dvs/events" />
+    <remap from="image" to="/dvs/image_raw" />
+    <remap from="camera_info" to="/dvs/camera_info" />
+  </node>
+
+  <!-- display -->
+  <node name="rqt_gui_corners" pkg="rqt_gui" type="rqt_gui" args="--perspective-file $(find corner_event_detector)/cfg/viewers.perspective" />
+
+</launch>
