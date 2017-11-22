@@ -69,7 +69,7 @@ British Machine Vision Conference (BMVC), London, 2017.
     }
 
 
-The original event-based Harris detector was described in the following [BMVC'17 publication](http://ieeexplore.ieee.org/document/7759610/):
+The original event-based Harris detector was described in the following [IROS'16 publication](http://ieeexplore.ieee.org/document/7759610/):
 
 V. Vasco, A. Glover, C. Bartolozzi:
 **Fast event-based Harris corner detection exploiting the advantages of event-driven cameras.**
