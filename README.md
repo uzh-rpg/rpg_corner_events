@@ -21,20 +21,20 @@ The source code is released under a GNU General Public License (GPL).
 ## Installation
 1. Install the [DVS/DAVIS ROS driver](https://github.com/uzh-rpg/rpg_dvs_ros) (you only need the `dvs_msgs` and `dvs_renderer` packages).
 2. Clone the repository to your ROS workspace
-  git clone https://github.com/uzh-rpg/rpg_corner_events
+    git clone https://github.com/uzh-rpg/rpg_corner_events
 3. Build it using the following command:
-  roscd corner_event_detector
-  catkin build --this
+    roscd corner_event_detector
+    catkin build --this
 
 ## Using a Dataset
 To get a bag file from the [Event-Camera Dataset](http://rpg.ifi.uzh.ch/davis_data.html):
-  wget http://rpg.ifi.uzh.ch/datasets/davis/shapes_6dof.bag
+    wget http://rpg.ifi.uzh.ch/datasets/davis/shapes_6dof.bag
 
 Run the detector and visualization launch file:
-  roslaunch corner_event_detector bag.launch
+    roslaunch corner_event_detector bag.launch
 
 In a separate terminal, run a bag file, e.g.:
-  rosbag play shapes_6dof.bag
+    rosbag play shapes_6dof.bag
 
 ## Using the DAVIS Event Camera (Live Mode)
 Please run the file:
@@ -49,12 +49,12 @@ E. Mueggler, C. Bartolozzi, D. Scaramuzza:
 **Fast Event-based Corner Detection.**
 British Machine Vision Conference (BMVC), London, 2017.
 
-  @inproceedings{Mueggler17BMVC,
-   author = {Mueggler, Elias and Bartolozzi, Chiara and Scaramuzza, Davide},
-   title = {Fast Event-based Corner Detection},
-   booktitle = {British Machine Vision Conference (BMVC)},
-   year = {2015}
-  }
+    @inproceedings{Mueggler17BMVC,
+     author = {Mueggler, Elias and Bartolozzi, Chiara and Scaramuzza, Davide},
+     title = {Fast Event-based Corner Detection},
+     booktitle = {British Machine Vision Conference (BMVC)},
+     year = {2015}
+    }
 
 
 The original event-based Harris detector was described in the following [BMVC'17 publication](http://ieeexplore.ieee.org/document/7759610/):
@@ -63,9 +63,9 @@ V. Vasco, A. Glover, C. Bartolozzi:
 **Fast event-based Harris corner detection exploiting the advantages of event-driven cameras.**
 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016.
 
-  @inproceedings{Vasco16IROS,
-   author = {Vasco, Valentina and Glover, Arren and Bartolozzi, Chiara},
-   title = {Fast event-based Harris corner detection exploiting the advantages of event-driven cameras},
-   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-   year = {2016}
-  }
+    @inproceedings{Vasco16IROS,
+     author = {Vasco, Valentina and Glover, Arren and Bartolozzi, Chiara},
+     title = {Fast event-based Harris corner detection exploiting the advantages of event-driven cameras},
+     booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+     year = {2016}
+    }
