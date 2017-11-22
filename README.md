@@ -21,25 +21,36 @@ The source code is released under a GNU General Public License (GPL).
 ## Installation
 1. Install the [DVS/DAVIS ROS driver](https://github.com/uzh-rpg/rpg_dvs_ros) (you only need the `dvs_msgs` and `dvs_renderer` packages).
 2. Clone the repository to your ROS workspace
+    ```
     git clone https://github.com/uzh-rpg/rpg_corner_events
+    ```
 3. Build it using the following command:
+    ```
     roscd corner_event_detector
     catkin build --this
+    ```
 
 ## Using a Dataset
 To get a bag file from the [Event-Camera Dataset](http://rpg.ifi.uzh.ch/davis_data.html):
-    wget http://rpg.ifi.uzh.ch/datasets/davis/shapes_6dof.bag
+```
+wget http://rpg.ifi.uzh.ch/datasets/davis/shapes_6dof.bag
+```
 
 Run the detector and visualization launch file:
-    roslaunch corner_event_detector bag.launch
+```
+roslaunch corner_event_detector bag.launch
+```
 
 In a separate terminal, run a bag file, e.g.:
-    rosbag play shapes_6dof.bag
+```
+rosbag play shapes_6dof.bag
+```
 
 ## Using the DAVIS Event Camera (Live Mode)
 Please run the file:
-  roslaunch corner_event_detector davis_live.launch
-
+```
+roslaunch corner_event_detector davis_live.launch
+```
 
 ## Publication
 
