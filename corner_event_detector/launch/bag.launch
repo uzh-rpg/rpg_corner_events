@@ -1,7 +1,7 @@
 <launch>
   <!-- feature detector -->
   <node name="corner_event_detector" pkg="corner_event_detector" type="detector" output="screen">
-    <param name="feature_type" value="harris"/>
+    <param name="feature_type" value="fast"/>
   </node>
 
   <!-- corner visualization -->
