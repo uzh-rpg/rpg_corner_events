@@ -67,17 +67,3 @@ British Machine Vision Conference (BMVC), London, 2017.
      booktitle = {British Machine Vision Conference (BMVC)},
      year = {2015}
     }
-
-
-The original event-based Harris detector was described in the following [IROS'16 publication](http://ieeexplore.ieee.org/document/7759610/):
-
-V. Vasco, A. Glover, C. Bartolozzi:
-**Fast event-based Harris corner detection exploiting the advantages of event-driven cameras.**
-IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016.
-
-    @inproceedings{Vasco16IROS,
-     author = {Vasco, Valentina and Glover, Arren and Bartolozzi, Chiara},
-     title = {Fast event-based Harris corner detection exploiting the advantages of event-driven cameras},
-     booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-     year = {2016}
-    }
