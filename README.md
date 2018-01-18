@@ -9,7 +9,7 @@ Our implementation is capable of processing a million events per second on a sin
 Left: image with *all* events, right: image with only corner events. Event color depicts polarity (i.e., the sign of the brightness change).
 
 This code also contains the Spatially-Adaptive Harris Method used for comparison.
-For more details, please read our [BMVC'17 publication](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler.pdf) paper.
+For more details, please read our [BMVC'17 paper](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler.pdf) or have look at the [poster](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler_poster.pdf).
 
 
 # Disclaimer and License
