@@ -8,8 +8,7 @@ Our implementation is capable of processing a million events per second on a sin
 ![corners_screenshot](https://user-images.githubusercontent.com/670994/33448948-9fd5c3fa-d607-11e7-8be3-d57fa93391ea.png)
 Left: image with *all* events, right: image with only corner events. Event color depicts polarity (i.e., the sign of the brightness change).
 
-**Youtube video**:  
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=tgvM4ELesgI" target="_blank"><img src="http://img.youtube.com/vi/tgvM4ELesgI/0.jpg" alt="BMVC17_Mueggler" width="480" height="360" border="10" /></a>
+[![YouTube video](http://rpg.ifi.uzh.ch/img/papers/BMVC17_Mueggler_thumb_play.jpg)](http://www.youtube.com/watch?v=tgvM4ELesgI)
 
 This code also contains the Spatially-Adaptive Harris Method used for comparison.
 For more details, please read our [BMVC'17 paper](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler.pdf) or have look at the [poster](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler_poster.pdf).
