@@ -65,5 +65,5 @@ British Machine Vision Conference (BMVC), London, 2017.
      author = {Mueggler, Elias and Bartolozzi, Chiara and Scaramuzza, Davide},
      title = {Fast Event-based Corner Detection},
      booktitle = {British Machine Vision Conference (BMVC)},
-     year = {2015}
+     year = {2017}
     }
