@@ -8,15 +8,32 @@ Our implementation is capable of processing a million events per second on a sin
 ![corners_screenshot](https://user-images.githubusercontent.com/670994/33448948-9fd5c3fa-d607-11e7-8be3-d57fa93391ea.png)
 Left: image with *all* events, right: image with only corner events. Event color depicts polarity (i.e., the sign of the brightness change).
 
+**Youtube video**:  
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=tgvM4ELesgI" target="_blank"><img src="http://img.youtube.com/vi/tgvM4ELesgI/0.jpg" alt="BMVC17_Mueggler" width="480" height="360" border="10" /></a>
+
 This code also contains the Spatially-Adaptive Harris Method used for comparison.
 For more details, please read our [BMVC'17 paper](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler.pdf) or have look at the [poster](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler_poster.pdf).
 
+## Publication
+
+If you use this code in an academic context, please cite the following [BMVC'17 publication](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler.pdf):
+
+E. Mueggler, C. Bartolozzi, D. Scaramuzza:
+**Fast Event-based Corner Detection.**
+British Machine Vision Conference (BMVC), London, 2017.
+
+    @inproceedings{Mueggler17BMVC,
+     author = {Mueggler, Elias and Bartolozzi, Chiara and Scaramuzza, Davide},
+     title = {Fast Event-based Corner Detection},
+     booktitle = {British Machine Vision Conference (BMVC)},
+     year = {2017}
+    }
 
 # Disclaimer and License
 This code has been tested with ROS kinetic on Ubuntu 16.04.
 This is research code, expect that it changes often and any fitness for a particular purpose is disclaimed.
 The source code is released under a GNU General Public License (GPL).
-
+For a commercial license, please contact the [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html)
 
 # Instructions
 ## Installation
@@ -53,17 +70,3 @@ Please run the file:
 roslaunch corner_event_detector davis_live.launch
 ```
 
-## Publication
-
-If you use this code in an academic context, please cite the following [BMVC'17 publication](http://rpg.ifi.uzh.ch/docs/BMVC17_Mueggler.pdf):
-
-E. Mueggler, C. Bartolozzi, D. Scaramuzza:
-**Fast Event-based Corner Detection.**
-British Machine Vision Conference (BMVC), London, 2017.
-
-    @inproceedings{Mueggler17BMVC,
-     author = {Mueggler, Elias and Bartolozzi, Chiara and Scaramuzza, Davide},
-     title = {Fast Event-based Corner Detection},
-     booktitle = {British Machine Vision Conference (BMVC)},
-     year = {2017}
-    }
