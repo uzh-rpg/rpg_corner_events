@@ -1,6 +1,7 @@
 #pragma once
 
 #include <deque>
+#include <vector>
 #include <Eigen/Dense>
 
 namespace corner_event_detector
